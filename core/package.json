@@ -1,0 +1,22 @@
+{
+  "name": "core-auth-app",
+  "version": "1.0.0",
+  "description": "API for authentication application through Clean Archquictecture",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "4.17.20",
+    "@types/node": "20.8.10",
+    "@types/uuid": "9.0.6",
+    "typescript": "5.2.2"
+  },
+  "dependencies": {
+    "express": "4.18.2",
+    "uuid": "9.0.1"
+  }
+}
