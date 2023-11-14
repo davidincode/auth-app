@@ -4,19 +4,27 @@
   "description": "API for authentication application through Clean Archquictecture",
   "main": "src/index.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "dev": "ts-node src/index.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/cors": "^2.8.16",
     "@types/express": "4.17.20",
+    "@types/morgan": "^1.9.9",
     "@types/node": "20.8.10",
     "@types/uuid": "9.0.6",
+    "ts-node": "^10.9.1",
     "typescript": "5.2.2"
   },
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
     "express": "4.18.2",
+    "mongoose": "^8.0.0",
+    "morgan": "^1.10.0",
     "uuid": "9.0.1"
   }
 }
